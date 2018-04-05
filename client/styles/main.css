@@ -1,0 +1,34 @@
+/* CSS declarations go here */
+
+/*Header style*/
+header {
+  background-color: black;
+}
+
+.page-title {
+  font-family: "Work-Sans", sans-serif;
+  font-weight: 500;
+  display: inline-block;
+  color: white;
+}
+
+.menu {
+  display: inline-block;
+  float: right;
+}
+
+.pages {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  font-family: "Roboto", sans-serif;
+}
+
+li a {
+  color: white;
+  text-align: center;
+}

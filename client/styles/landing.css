@@ -1,0 +1,42 @@
+/* Coolors Exported Palette - coolors.co/283044-78a1bb-ebf5ee-bfa89e-8b786d */
+/* HSL */
+/* RGB */
+/* CSS declarations go here */
+body {
+  background-color: #EBF5EE;
+  color: #000000;
+}
+
+/*Header style*/
+header {
+  background-color: #A3C4BC;
+}
+
+.page-title {
+  font-family: 100% "Work-Sans", sans-serif;
+  font-weight: 500;
+  display: inline-block;
+  color: #283044;
+}
+
+.menu {
+  display: inline-block;
+  float: right;
+  color: #78A1BB;
+}
+
+.pages {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  font-family: "Roboto", sans-serif;
+}
+
+li a {
+  color: white;
+  text-align: center;
+}

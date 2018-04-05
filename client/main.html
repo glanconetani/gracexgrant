@@ -1,12 +1,12 @@
 <head>
   <title>gracexgrant</title>
-</head>
+  <link rel="stylesheet" href="main.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto|Work+Sans:300,500,800" rel="stylesheet"></head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
 
-  {{> hello}}
-  {{> info}}
+  {{> header}}
+
 </body>
 
 <template name="hello">
@@ -22,4 +22,17 @@
     <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
     <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
   </ul>
+</template>
+
+<template name="header">
+  <header>
+    <h1 class="page-title">Two Cents</h1>
+    <nav class="menu">
+      <ul class="pages">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">GRACE</a></li>
+        <li><a href="#">GRANT</a></li>
+      </ul>
+    </nav>
+  </header>
 </template>

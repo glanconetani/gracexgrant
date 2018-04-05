@@ -1,0 +1,66 @@
+/* Coolors Exported Palette - coolors.co/283044-78a1bb-ebf5ee-bfa89e-8b786d */
+/* HSL */
+$color1: hsla(223%, 26%, 21%, 1);
+$color2: hsla(203%, 33%, 60%, 1);
+$color3: hsla(138%, 33%, 94%, 1);
+$color4: hsla(18%, 20%, 68%, 1);
+$color5: hsla(22%, 12%, 49%, 1);
+
+/* RGB */
+$color1: rgba(40, 48, 68, 1);
+$color2: rgba(120, 161, 187, 1);
+$color3: rgba(235, 245, 238, 1);
+$color4: rgba(191, 168, 158, 1);
+$color5: rgba(139, 120, 109, 1);
+
+
+$title: #283044;
+$subtitle: #78A1BB;
+$background: #EBF5EE;
+$accent: #A3C4BC;
+$type: #000000;
+
+$work-sans: "Work-Sans", sans-serif;
+$roboto: "Roboto", sans-serif;
+
+
+/* CSS declarations go here */
+
+body {
+  background-color: $background;
+  color: $type;
+}
+
+/*Header style*/
+header {
+  background-color: $accent;
+}
+
+.page-title {
+  font-family: 100% $work-sans;
+  font-weight: 500;
+  display: inline-block;
+  color: $title;
+}
+
+.menu {
+  display: inline-block;
+  float: right;
+  color: $subtitle;
+}
+
+.pages {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  font-family: $roboto;
+}
+
+li a {
+  color: white;
+  text-align: center;
+}
